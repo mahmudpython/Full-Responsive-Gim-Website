@@ -20,7 +20,6 @@ body{
 
 /* Navber Design */
 nav{
-    border: 2px solid red;
     padding: 5px;
     display: flex;
     max-width: 1200px;
@@ -29,7 +28,6 @@ nav{
     align-items: center;
 }
 nav>p{
-    border: 2px solid rebeccapurple;
     color: #E6533C;
     font-weight: bold;
     font-style: italic;
@@ -57,14 +55,12 @@ nav>span{
 /* Banner Design */
 
 .banner-container{
-    border: 1px solid blue;
     min-height: 400px;
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
 }
 .banner-left{
-border: 1px solid blue;
 width: 50%;
 }
 .banner-left>h1{
@@ -85,7 +81,6 @@ width: 50%;
     margin-right: 10px;
 }
 .banner-right{
-border: 1px solid blue;
 width: 50%;
 display: flex;
 justify-content: center;
@@ -135,7 +130,6 @@ position: relative;
 
 .habit-container{
     max-width: 1044px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 100px;
    
@@ -160,10 +154,8 @@ position: relative;
      grid-template-columns: repeat(4, 1fr);
      justify-content: center;
      gap: 35px;
-     border: 1px solid rgb(34, 0, 255);
 }
 .card{
-    border: 1px solid red;
     padding: 5px 25px;
 }
 .card-item-container img{
@@ -218,7 +210,6 @@ margin-top: 6px;
 /* Exercise  */
 
 .exercise-container{
-    border: 1px solid darkblue;
     max-width: 1060px;
     margin: 0 auto;
     margin-top: 100px;
@@ -235,7 +226,6 @@ margin-top: 6px;
 }
 
 .exercise-img-container{
-    border: 1px solid rgb(250, 0, 229);
     max-width: 1200px;
     display: grid;    
     min-height: 300px;
@@ -253,13 +243,11 @@ margin-top: 6px;
     width: 100%;
     grid-column: span 2;
     grid-row: span 1;
-    border: 1px solid rgb(250, 0, 229);
     position: relative;
 }
 .normal-img{
     grid-column: span 1;
     grid-row: span 1;
-    border: 1px solid rgb(250, 0, 229);
     position: relative;
 }
 .normal-img p{
@@ -285,7 +273,6 @@ max-width: 1060px;
 margin: 0 auto;
 margin-top: 58px;
 text-align: center;
- border: 1px solid rgb(250, 0, 229); 
 }
 .meet-container h2{
     font-size: 3rem;
@@ -298,15 +285,11 @@ text-align: center;
 .team-section{
     padding: 20px;
     min-height: 350px;
-    border: 1px solid rgb(250, 0, 229);
     border-radius: 18px;
     background-color: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-}
-.team-container{
-    border: 1px solid rgb(250, 0, 229);
 }
 .team-container img{
     width: 100%;
@@ -324,7 +307,6 @@ text-align: center;
 }
 
 .footer-container{
-    border: 1px solid rgb(250, 0, 229);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1060px;
@@ -333,9 +315,6 @@ text-align: center;
    padding-bottom: 82px;
    gap: 100px;
     
-}
-.box-footer{
-    border: 1px solid rgb(250, 0, 229);
 }
 
 .box-footer h1{
@@ -368,7 +347,6 @@ hr{
 }
 small{
     margin: 0 auto;
-    border: 1px solid rgb(250, 0, 229);
     display: flex;
     justify-content: center;
     margin-top: 36px;
